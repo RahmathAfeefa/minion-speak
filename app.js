@@ -1,9 +1,11 @@
 var btntranslate = document.querySelector("#btn-tanslate");
-var textInput = document.querySelector("#txt-input")
+var textInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
+
+
 
 function ClickEventHandler() {
-    console.log("Clicked!!");
-    console.log("input", textInput.value);
+    outputDiv.innerText = "zagshssjjj " + textInput.value;
 }
 
 
