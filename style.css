@@ -1,4 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;500&display=swap');
-body {
-    font-family: 'Mali', cursive;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;500&display=swap');
+    body {
+        font-family: 'Mali', cursive;
+        margin: 0px;
+        padding: 0rem;
+    }
+    
+    hr {
+        margin: 1.5rem 0rem;
+    }
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .container-center {
+        max-width: 600px;
+        margin: auto;
+    }
+    
+    .navigation {
+        background-color: #fbbf24;
+        padding: 1rem;
+        border-bottom-left-radius: 1rem;
+        margin-bottom: 3rem;
+    }
+    
+    .heading {
+        text-align: center;
+    }
+    
+    textarea {
+        width: 80%;
+        margin: 1rem;
+        height: 10vh;
+        display: block;
+        padding: 1rem;
+    }
+    
+    #output {
+        border: 1px solid black;
+        height: 10vh;
+        width: 80%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+    #txt-input {
+        font-family: 'Mali', cursive;
+    }
+    /* #btn-tanslate {
+    background-color: #fbbf24;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+} */
+    
+    #btn-tanslate {
+        background-color: #fbbf24;
+        border: none;
+        color: white;
+        padding: 15px 55px;
+        text-align: center;
+        font-size: 16px;
+        margin-left: 1rem;
+    }
+    
+    .out {
+        padding-top: 1rem;
+    }
+    
+    .footer {
+        text-align: center;
+        background-color: #fbbf24;
+        padding: 1rem;
+        border-bottom-left-radius: 1rem;
+        margin-top: 3rem;
+    }
+    
+    .footer,
+    .para {
+        text-align: center;
+    }
