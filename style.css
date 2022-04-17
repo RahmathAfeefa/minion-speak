@@ -9,11 +9,6 @@
         margin: 1.5rem 0rem;
     }
     
-    .container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    
     .container-center {
         max-width: 600px;
         margin: auto;
@@ -21,8 +16,8 @@
     
     .navigation {
         background-color: #fbbf24;
-        padding: 1rem;
-        border-bottom-left-radius: 1rem;
+        /* padding: 1rem; */
+        padding: 0.5rem;
         margin-bottom: 3rem;
     }
     
@@ -64,21 +59,43 @@
         text-align: center;
         font-size: 16px;
         margin-left: 1rem;
+        font-family: 'Mali', cursive;
+        cursor: pointer;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+    
+    .btn:hover,
+    btn:focus,
+    btn:active {
+        /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+        /* -webkit-transform: scale(1.1); */
+        transform: scale(1.1);
     }
     
     .out {
         padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     
     .footer {
-        text-align: center;
         background-color: #fbbf24;
-        padding: 1rem;
-        border-bottom-left-radius: 1rem;
+        /* padding: 1rem; */
+        padding: 0.5rem;
         margin-top: 3rem;
-    }
-    
-    .footer,
-    .para {
         text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1.3rem;
+    }
+    /*     
+    .heading {
+        padding: 1rem;
+    } */
+    
+    .footer.para {
+        text-align: center;
+        padding-bottom: 0.5rem;
     }
